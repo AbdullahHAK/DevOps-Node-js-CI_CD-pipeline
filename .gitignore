@@ -5,3 +5,4 @@ cat <<EOF > .gitignore
 *.tfstate.backup
 .terraform.lock.hcl
 EOF
+app/node_modules/
