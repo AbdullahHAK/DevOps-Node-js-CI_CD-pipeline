@@ -6,3 +6,4 @@
     - { role: base, tags: ["base"] }
     - { role: nginx, tags: ["nginx"] }
     - { role: nodejs, tags: ["nodejs"] }
+    - { role: app, tags: ["app"] }
