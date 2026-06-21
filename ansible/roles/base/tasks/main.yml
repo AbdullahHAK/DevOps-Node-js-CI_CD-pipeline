@@ -1,0 +1,19 @@
+---
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Upgrade packages
+  apt:
+    upgrade: dist
+
+- name: Install common utilities
+  apt:
+    name:
+      - git
+      - curl
+      - vim
+      - htop
+      - unzip
+      - fail2ban
+    state: present
