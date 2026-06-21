@@ -1,0 +1,7 @@
+cat <<EOF > .gitignore
+# Ignore local Terraform directories
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+EOF
